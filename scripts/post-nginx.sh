@@ -25,7 +25,6 @@ echo 'server {
 
     server_name $servername;
 
-    access_log "/var/log/nginx/server.${servername}.access.log";
     error_log "/var/log/nginx/server.dev.error.log";
 
     root $basepath/$rootpath;
@@ -40,7 +39,7 @@ echo 'server {
         try_files $uri =404;
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
 
-        fastcgi_pass  127.0.0.1:9000;
+        fastcgi_pass unix:/run/php/php7.1-fpm.sock;
         fastcgi_index /index.php;
 
         include fastcgi_params;

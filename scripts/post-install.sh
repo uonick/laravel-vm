@@ -3,5 +3,5 @@ sudo service php7.1-fpm restart
 sudo usermod -a -G www-data vagrant
 
 echo "----------------------------------------"
-echo "===>  VIRTUAL MACHINE READY TO FLY ;)"
+echo "===>  VIRTUAL MACHINE READY ;)"
 echo "----------------------------------------"
