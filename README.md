@@ -1,8 +1,12 @@
 # Ubuntu 16.04 Vagrant Laravel
-* Nginx (1.10)
-* PHP (7.0)
-* Composer (1.2.x)
-* MySQL (5.7.x)
+* Nginx (latest)
+* PHP (7.1.x)
+* Composer (latest)
+* NodeJs (7.x)
+* Npm (latest)
+* MySQL (latest)
+* Htop
+* Mc
 
 # Install
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
