@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
     end
 
     # set project folder here:
-    config.vm.synced_folder "/Users/uonick/Projects/","/vagrant/www",
+    config.vm.synced_folder "./www","/vagrant/www",
         owner: "vagrant",
         group: "www-data",
         mount_options: ["dmode=776,fmode=664"]
@@ -32,5 +32,6 @@ Vagrant.configure(2) do |config|
     config.vm.provision "shell", path: "./scripts/composer.sh"
     config.vm.provision "shell", path: "./scripts/mysql.sh"
     config.vm.provision "shell", path: "./scripts/frontend.sh"
+    config.vm.provision "shell", path: "./scripts/redis.sh"
     config.vm.provision "shell", path: "./scripts/post-install.sh"
 end
