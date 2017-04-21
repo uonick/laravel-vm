@@ -21,6 +21,7 @@
         * `echo "address=/.dev/192.168.3.3" >> /etc/dnsmasq.conf`
     * macOS:
         * `brew install dnsmasq`
+        * [Using Dnsmasq for local development on OS X](https://passingcuriosity.com/2013/dnsmasq-dev-osx/)
 7. :tada: :balloon:
 
 # Development
