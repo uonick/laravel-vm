@@ -1,5 +1,5 @@
-# Ubuntu 16.04 Vagrant Laravel
-![Vagrant+PHP7](https://i.imgur.com/3gzpT3P.png)
+# Ubuntu Vagrant Laravel
+![Vagrant+PHP7](https://i.imgur.com/u1Rd6gQ.png)
 * Nginx (latest)
 * PHP (7.1.x)
 * Composer (latest)
