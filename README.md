@@ -1,7 +1,9 @@
 ![Vagrant+PHP7](https://i.imgur.com/u1Rd6gQ.png)
-* Ubuntu
+
+# Laravel virtual box machine
+* Ubuntu 16.04
 * Nginx (latest)
-* PHP (7.1.x)
+* PHP (7.2.x)
 * Composer (latest)
 * NodeJs (7.x)
 * Npm (latest)
