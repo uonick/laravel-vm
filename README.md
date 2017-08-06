@@ -1,5 +1,10 @@
 ![Vagrant+PHP7](https://i.imgur.com/u1Rd6gQ.png)
-* Ubuntu
+
+[PHP 7.2 version](https://github.com/uonick/laravel-vm/tree/php-7.2)
+
+# Vagrant Laravel vm
+
+* Ubuntu 16.04
 * Nginx (latest)
 * PHP (7.1.x)
 * Composer (latest)
