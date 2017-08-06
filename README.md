@@ -5,7 +5,7 @@
 * Nginx (latest)
 * PHP (7.2.x)
 * Composer (latest)
-* NodeJs (7.x)
+* NodeJs (8.x)
 * Npm (latest)
 * MySQL (latest)
 * Htop
