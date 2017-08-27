@@ -23,8 +23,6 @@
         * [Using Dnsmasq for local development on OS X](https://passingcuriosity.com/2013/dnsmasq-dev-osx/)
 4. Go to directory with README file (`cd laravel-vm`)
 5. Run `vagrant up`
-6. :tada: :balloon:
-
 
 # Development
 1. Go to `laravel/www/`
