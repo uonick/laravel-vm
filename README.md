@@ -1,4 +1,4 @@
-![Vagrant+PHP7](https://i.imgur.com/u1Rd6gQ.png)
+![Vagrant+PHP7](http://i.imgur.com/GNrh3Mu.png)
 
 # Laravel virtual box machine
 * Ubuntu 16.04
