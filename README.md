@@ -12,19 +12,18 @@
 * Mc
 
 # Install
-1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-2. Install [Vagrant](https://www.vagrantup.com/)
-3. Clone project
-4. Run on host machine:
+1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/)
+2. Clone project
+3. _(optional)_ Run on host machine:
     * Linux:
         * `sudo apt-get install dnsmasq`
         * `echo "address=/.dev/192.168.3.3" >> /etc/dnsmasq.conf`
     * macOS:
         * `brew install dnsmasq`
         * [Using Dnsmasq for local development on OS X](https://passingcuriosity.com/2013/dnsmasq-dev-osx/)
-5. Go to directory with README file (`cd laravel-vm`)
-6. Run `vagrant up`
-7. :tada: :balloon:
+4. Go to directory with README file (`cd laravel-vm`)
+5. Run `vagrant up`
+6. :tada: :balloon:
 
 
 # Development
