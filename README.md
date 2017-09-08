@@ -1,34 +1,28 @@
-![Vagrant+PHP7](https://i.imgur.com/u1Rd6gQ.png)
+![Vagrant+PHP7](http://i.imgur.com/GNrh3Mu.png)
 
-[PHP 7.2 version](https://github.com/uonick/laravel-vm/tree/php-7.2)
-
-# Vagrant Laravel vm
-
+# Laravel virtual machine
 * Ubuntu 16.04
 * Nginx (latest)
-* PHP (7.1.x)
+* PHP (7.2.x)
 * Composer (latest)
-* NodeJs (7.x)
+* NodeJs (8.x)
 * Npm (latest)
 * MySQL (latest)
 * Htop
 * Mc
 
 # Install
-1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-2. Install [Vagrant](https://www.vagrantup.com/)
-3. Clone project
-4. Run on host machine:
+1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/)
+2. Clone project
+3. _(optional)_ Run on host machine:
     * Linux:
         * `sudo apt-get install dnsmasq`
         * `echo "address=/.dev/192.168.3.3" >> /etc/dnsmasq.conf`
     * macOS:
         * `brew install dnsmasq`
         * [Using Dnsmasq for local development on OS X](https://passingcuriosity.com/2013/dnsmasq-dev-osx/)
-5. Go to directory with README file (`cd laravel-vm`)
-6. Run `vagrant up`
-7. :tada: :balloon:
-
+4. Go to directory with README file (`cd laravel-vm`)
+5. Run `vagrant up`
 
 # Development
 1. Go to `laravel/www/`
