@@ -1,6 +1,6 @@
 ![Vagrant+PHP7](https://i.imgur.com/u1Rd6gQ.png)
 
-[PHP 7.2 version](https://github.com/uonick/laravel-vm/tree/php-7.2)
+[PHP 7.2 version](https://github.com/uonick/laravel-vm)
 
 # Vagrant Laravel vm
 
