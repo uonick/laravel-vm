@@ -1,7 +1,7 @@
 DBUSER=root
 DBPASSWD=root
 
-echo "\n--- MYSQL ---\n"
+echo "--- MYSQL ---"
 sudo apt-get install -y debconf-utils -y > /dev/null
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password $DBPASSWD"
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password $DBPASSWD"
