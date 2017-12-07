@@ -25,7 +25,7 @@
 5. Run `vagrant up`
 
 # Development
-1. Go to `laravel/www/`
+1. Go to `laravel-vm/www/`
 2. Make `directory/public/index.php`
 3. Open url `http://directory.test/`
 4. Enjoy :sunglasses:
