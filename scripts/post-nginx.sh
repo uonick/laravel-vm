@@ -3,29 +3,30 @@ sudo rm -rf /etc/nginx/sites-available/default
 sudo rm -rf /etc/nginx/sites-enabled/default
 cd ~
 echo 'server {
+    charset  utf-8;
+
     index    index.php index.html index.htm;
     set      $basepath "/vagrant/www";
     set      $domain $host;
-    charset  utf-8;
 
     # check one name domain for simple application
-    if ($domain ~ "^(.[^.]*)\.dev$") {
+    if ($domain ~ "^(.[^.]*)\.test$") {
         set $domain $1;
         set $rootpath "${domain}/public/";
-        set $servername "${domain}.dev";
+        set $servername "${domain}.test";
     }
 
     # check multi name domain to multi application
-    if ($domain ~ "^(.*)\.(.[^.]*)\.dev$") {
+    if ($domain ~ "^(.*)\.(.[^.]*)\.test$") {
         set $subdomain $1;
         set $domain $2;
         set $rootpath "${domain}/${subdomain}/www/";
-        set $servername "${subdomain}.${domain}.dev";
+        set $servername "${subdomain}.${domain}.test";
     }
 
     server_name $servername;
 
-    error_log "/var/log/nginx/server.dev.error.log";
+    error_log "/var/log/nginx/server.test.error.log";
 
     root $basepath/$rootpath;
 

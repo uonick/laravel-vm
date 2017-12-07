@@ -17,7 +17,7 @@
 3. _(optional)_ Run on host machine:
     * Linux:
         * `sudo apt-get install dnsmasq`
-        * `echo "address=/.dev/192.168.3.3" >> /etc/dnsmasq.conf`
+        * `echo "address=/.test/192.168.3.3" >> /etc/dnsmasq.conf`
     * macOS:
         * `brew install dnsmasq`
         * [Using Dnsmasq for local development on OS X](https://passingcuriosity.com/2013/dnsmasq-dev-osx/)
@@ -27,21 +27,24 @@
 # Development
 1. Go to `laravel/www/`
 2. Make `directory/public/index.php`
-3. Open url `http://directory.dev/`
+3. Open url `http://directory.test/`
 4. Enjoy :sunglasses:
 
 # Domains
-* `domain.dev`
+* `domain.test`
   * `./www/domain/public/index.php`
-* `developer.dev`
+* `developer.test`
   * `./www/developer/public/index.php`
 
 # Subdomain
-* `sub.domain.dev`
+* `sub.domain.test`
   * `./www/domain/sub/www/index.php`
-* `sub.developer.dev`
+* `sub.developer.test`
   * `./www/developer/sub/www/index.php`
 
 # MySQL
 * login: `root`
 * password: `root`
+
+# Why `.test`?
+[Read more at Laravel news](https://laravel-news.com/chrome-63-now-forces-dev-domains-https)
