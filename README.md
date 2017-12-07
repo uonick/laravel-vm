@@ -1,6 +1,6 @@
 ![Vagrant+PHP7](http://i.imgur.com/GNrh3Mu.png)
 
-# Laravel virtual machine
+# Laravel Vagrant machine
 * Ubuntu 16.04
 * Nginx (latest)
 * PHP (7.2.x)
