@@ -22,7 +22,7 @@ Vagrant.configure(2) do |config|
     config.vm.synced_folder "./www","/vagrant/www",
         owner: "vagrant",
         group: "www-data",
-        mount_options: ["dmode=776,fmode=664"]
+        mount_options: ["dmode=775,fmode=775"]
 
     config.vm.provision "shell", path: "./scripts/common.sh"
     config.vm.provision "shell", path: "./scripts/nginx.sh"
