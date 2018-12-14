@@ -3,6 +3,7 @@ sudo rm -rf /etc/nginx/sites-available/default
 sudo rm -rf /etc/nginx/sites-enabled/default
 cd ~
 echo 'server {
+    listen 80 default_server;
     charset  utf-8;
 
     index    index.php index.html index.htm;
